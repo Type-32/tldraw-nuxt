@@ -1,0 +1,40 @@
+# Source files
+src/
+
+# Development
+node_modules/
+playground/
+test/
+.nuxt/
+.output/
+
+# Build tools
+*.log
+*.lock
+bun.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Documentation (keep only README and LICENSE in package)
+CHANGELOG.md
+
+# TypeScript
+tsconfig.json
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
+# OS
+.DS_Store
+Thumbs.db
+
