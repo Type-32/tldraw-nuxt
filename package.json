@@ -1,11 +1,12 @@
 {
   "name": "@type32/tldraw-nuxt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "tldraw infinite canvas whiteboard as a Nuxt component",
   "repository": {
     "type": "git",
     "url": "https://github.com/Type-32/tldraw-nuxt.git"
   },
+  "private": false,
   "keywords": [
     "nuxt",
     "nuxt-module",
