@@ -1,4 +1,5 @@
 {
+  "private": false,
   "name": "@type32/tldraw-nuxt",
   "version": "0.1.2",
   "description": "tldraw infinite canvas whiteboard as a Nuxt component",
@@ -6,7 +7,6 @@
     "type": "git",
     "url": "https://github.com/Type-32/tldraw-nuxt.git"
   },
-  "private": false,
   "keywords": [
     "nuxt",
     "nuxt-module",
@@ -48,7 +48,6 @@
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
     "release": "bun run prepack && changelogen --release && bun publish && git push --follow-tags",
-    "lint": "eslint .",
     "test": "vitest run",
     "test:watch": "vitest watch",
     "test:types": "vue-tsc --noEmit && cd playground && vue-tsc --noEmit"
